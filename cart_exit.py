@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data from Excel
-file_path = 'path_to_your_post_purchase_data.xlsx'
+file_path = 'cart.xlsx'
 df = pd.read_excel(file_path)
 
 # Display the first few rows and column names for verification
